@@ -1,0 +1,42 @@
+Ques 1. What is the differences between var,let ,and const?
+Ans :	var is globally scoped while let & const are block scoped.
+	var can be update and re-declared within its scoped.
+	let can be update but not re-declared.
+	canst can neither be update nor be re-declared.
+	var variable are initilized with undefined whereas let and const varialbe are not insilized.
+	const must be initilized during declaration unlike let and var.
+
+Ques 2. Differences between undefined vs not defined vs NaN.
+Ans : 	Null - Null represents an empty value and carry no meaningful information.
+
+         	Undefined - Undefined represents any value that has not been defined anywhere in the          		program.
+	If any variable or operation isn't able to produce a meaningful value, it returns undefined.
+
+	NaN - NaN stands for Not a Number. You get this value when you try to do some operation 		that can't yield a meaningful result.
+
+Ques 3. What is difference between null and undefined and where to use what?
+Ans:	Undefine:
+	Undefined means the variable has been declared, but its value has not been assigned.
+	The typeof() operator returns undefined for an undefined variable.
+	It returns NaN on performing arithmetic operations.
+	Uses:
+	The undefined property indicates that a variable has not been assigned a value, or not  	declared at all.
+
+
+	Null:
+	Null means an empty value or a blank value.
+	The typeof() operator returns the type as an object for a variable whose value is assigned as 		null.
+	converts to 0 then perform the operation
+	Uses:
+	Usually, null is used to assign 'unknown' or 'empty' value to a variable.
+
+Ques : What is execution context?
+Ans:	In JavaScript, the environment that enables the JavaScript code to get executed is what we  	call JavaScript Execution Context.
+
+Ques: What is use of prompt in JavaScript?
+Ans:	The prompt() method displays a dialog box that prompts the user for input.
+	The prompt() method returns the input value if the user clicks "OK", otherwise it returns null
+
+Ques: Why javascript is dynamic language?
+Ans:	JavaScript is a dynamically typed language, which means that data types of variables are 	determined by the value they hold at runtime and can change throughout the program as we 	assign different values to them.
+	
